@@ -5,6 +5,8 @@ import Banner from '../Components/Banner/Banner';
 
 import Posts from '../Components/Posts/Posts';
 import Footer from '../Components/Footer/Footer';
+import OlxApp from '../Components/Footer/OlxApp';
+
 
 function Home(props) {
   return (
@@ -12,6 +14,7 @@ function Home(props) {
       <Header />
       <Banner />
       <Posts />
+      <OlxApp />
       <Footer />
     </div>
   );

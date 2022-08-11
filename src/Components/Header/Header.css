@@ -4,6 +4,7 @@
   position: fixed;
   width: 100vw;
   z-index: 999;
+  
 }
 
 .headerChildDiv {
@@ -11,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .placeSearch {
